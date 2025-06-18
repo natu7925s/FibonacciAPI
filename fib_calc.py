@@ -2,6 +2,9 @@ import sqlite3
 import time
 import os
 
+import sys
+sys.set_int_max_str_digits(100000) 
+
 DB_PATH = "./fibonacci.db"
 SLEEP_SEC = 0.01
 
